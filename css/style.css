@@ -1,0 +1,124 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+  margin: auto;
+}
+@media (min-width: 768px) {
+  .container{
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container{
+    width: 970px; 
+  }
+}
+@media (min-width: 1200px) {
+  .container{
+    width: 1170px;
+  }
+}
+/* start header  */
+header .container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+ul{
+  list-style: none;
+  display: flex;
+}
+ul li a{
+  padding: 10px;
+  color: #1F373D;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+.nav ul li:last-child a{
+  background-color: #FFCC01;
+  border-radius: 10px ;
+}
+.nav ul li:first-child a {
+  margin-right: 5px;
+}
+/* end header  */
+/* start Homepage  */
+.landing{
+  display: block;
+}
+section .landing .container{
+  position: relative;
+}
+section .landing .path{
+  width: 75%;
+  height: calc(100vh - 70px);
+  background-color: #96BECE;
+  position: absolute;
+  right:0px;
+}
+.path .div{
+  background-color: #FFCC01;
+  width: 70%;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+.path div div i{
+  left: -50px;
+  bottom: -25px;
+  position: relative;
+  color: #FFFFFF;
+}
+.path div div p{
+  position: relative;
+  top: -15px;
+  color: #1F373D;
+}
+.landing div .first{
+  font-family: 'Montserrat',sans-serif;
+  position: absolute;
+  top: 40px;
+  font-size: 50px;
+  text-align: center;
+  font-weight: 700;
+  color: #1F373D;
+}
+.landing .para{
+  width: 400px;
+  height: 50px;
+  position: relative;
+  background-color: #FFFFFF;
+  top: 290px;
+  left: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.landing .para .second{
+  outline: none;
+  border: none;
+  width: 300px;
+  height: 50px;
+}
+.landing .para .third{
+  background: #FFCC01;
+  padding: 16px 50px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+/* End Homepage  */
+/* start statistics */
+.statistics{
+  margin-top: ;
+}
+/* end statistics */
